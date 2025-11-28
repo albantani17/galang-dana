@@ -41,7 +41,7 @@ function App() {
   return (
     <div className='page'>
       <nav className='navbar'>
-        <div className='nav-brand'>Peduli Sumatra</div>
+        <div className='nav-brand'>Peduli Aceh</div>
         <button
           className='nav-toggle'
           aria-label='Toggle navigasi'
@@ -72,8 +72,8 @@ function App() {
       </nav>
 
       <header className='hero' id='main'>
-        <div className='hero-badge'>Tanggap Darurat • Banjir Sumatra Barat</div>
-        <h1>Galang Dana untuk Pulihkan Masyarakat yang Terdampak</h1>
+        <div className='hero-badge'>Tanggap Darurat • Banjir Aceh</div>
+        <h1>Galang Dana untuk Pulihkan Masyarakat Aceh yang Terdampak</h1>
         <p className='lede'>
           Hujan ekstrem memicu banjir bandang di lima kecamatan. Bantuan Anda
           akan langsung dipakai untuk kebutuhan terpenting: logistik, evakuasi,
