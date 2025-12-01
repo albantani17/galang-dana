@@ -41,7 +41,7 @@ function App() {
   return (
     <div className='page'>
       <nav className='navbar'>
-        <div className='nav-brand'>Peduli Aceh</div>
+        <div className='nav-brand'>Peduli Aceh & Sumatera</div>
         <button
           className='nav-toggle'
           aria-label='Toggle navigasi'
@@ -72,12 +72,14 @@ function App() {
       </nav>
 
       <header className='hero' id='main'>
-        <div className='hero-badge'>Tanggap Darurat • Banjir Aceh & Sumatra</div>
-        <h1>Galang Dana untuk Pulihkan Masyarakat Aceh & Sumatra yang Terdampak</h1>
+        <div className='hero-badge'>URGENT • Korban Banjir Aceh</div>
+        <h1>Korban Banjir Aceh Membutuhkan Bantuan</h1>
         <p className='lede'>
-          Hujan ekstrem memicu banjir bandang di lima kecamatan. Bantuan Anda
-          akan langsung dipakai untuk kebutuhan terpenting: logistik, evakuasi,
-          dan pemulihan dini setelah air surut.
+          "Banjir dan longsor di Aceh hingga Sumatra membuat banyak keluarga
+          terpisah dan menanti kabar. Provinsi Aceh dan sekitarnya kini gelap
+          tanpa listrik, sinyal, dan internet, sehingga keadaan di sana belum
+          diketahui. Mohon doa, bantuan, dan kepeduliannya untuk saudara-saudara
+          kita yang terdampak."
         </p>
         <div className='hero-notes'>
           <h3>Kenapa mendesak?</h3>

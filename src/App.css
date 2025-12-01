@@ -116,14 +116,14 @@ body {
 .hero {
   background: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.18),
-      rgba(255, 255, 255, 0.5)
+      rgba(5, 10, 25, 0.72),
+      rgba(5, 10, 25, 0.82)
     ),
     url('/image.png') center/cover no-repeat;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0;
   padding: 48px 36px;
-  box-shadow: 0 15px 40px rgba(28, 126, 214, 0.12);
+  box-shadow: 0 15px 40px rgba(5, 10, 25, 0.45);
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -131,6 +131,7 @@ body {
   min-height: 100vh;
   justify-content: center;
   scroll-margin-top: 90px;
+  color: #ffffff;
 }
 
 .hero-badge {
@@ -138,8 +139,8 @@ body {
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
   border-radius: 999px;
   font-weight: 700;
   font-size: 13px;
@@ -156,7 +157,7 @@ h1,
 }
 
 .lede {
-  color: var(--muted);
+  color: #e8edf7;
   line-height: 1.6;
   max-width: 760px;
 }
@@ -168,8 +169,8 @@ h1,
 }
 
 .hero-notes {
-  background: var(--panel-2);
-  border: 1px solid var(--stroke);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 0;
   padding: 14px 16px;
   display: flex;
@@ -183,7 +184,7 @@ h1,
 
 .hero-notes ul {
   padding-left: 18px;
-  color: var(--muted);
+  color: #d9e3f6;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
